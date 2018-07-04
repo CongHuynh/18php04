@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin: 0px;
+}
+@font-face{
+	
+	font-family: myFont;
+	src: url('Font/iCiel Alina.otf');
+}
+@font-face{
+	
+	font-family: mynewFont;
+	src:url('Font/AndesRoundedLight.otf');
+}
+.wrapper{
+	width:100%;
+	height:2000px;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+.l-header{
+	width:30%;
+	height: 100%;
+	margin-left: 90px;
+	float: left;
+}
+.img-la{
+	padding:15px 5px;
+}
+.r-header{
+	width:30%;
+	height: 100%;
+	float: right;
+	
+}
+.img-phone{
+	padding:16px 0px 0px 60px;
+}
+.tx-phone{
+	font-family: myFont;
+	color:white;
+	padding:9px 130px 0px 0px ;
+	float:right;
+	font-size: 20px;
+}
+.menu{
+	widht:100%;
+	height:50px;
+	background-color: #000000;
+}
+.menu li{
+	list-style-type: none;
+	display: inline-table;
+	padding: 5px 10px;
+}
+.menu a{
+	text-decoration: none;
+	color:white;
+	font-family: myFont;
+}
+.menu ul{
+	text-align: center;
+}
+.menu ul li:hover{
+	background: #fff;
+	transform: 1.2s;
+}
+.menu ul li a:hover{
+	color:#666;
+	font-size: 20px;
+}
+.banner{
+	width:100%;
+	height:500px;
+	background-image: url(image/banner.jpg);
+}
+.banner form{
+	padding:160px 100px;
+}
+.banner input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image:url(image/searchicon.png);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+ 	transition: width 0.4s ease-in-out;
+ 
+}
+
+.banner input[type=text]:focus {
+    width: 100%;
+}
+.content{
+	width: 90%;
+	height:2090px;
+	margin:10px auto;
+}
+.content-top{
+	width:100%;
+	height: 400px;
+	
+}
+.content-top-l{
+	width:50%;
+	height: 100%;
+	font-family: mynewFont;
+	float: left;
+}
+.content-top-l h3{
+	padding-top:40px;
+}
+.text-con{
+	text-align: justify;
+	padding-top: 10px;
+	line-height: 25px;
+}
+.content-top-r{
+	width:50%;
+	height: 100%;
+	float: left;
+	font-family: mynewFont;
+}
+.img-con{
+	 transform: rotate(10deg);
+	margin:50px;
+	box-shadow: 10px 10px 18px black;
+}
+.content-between{
+	width:100%;
+	height:120px;
+	margin-top: 15px;
+	border-bottom: 7px solid #017616;
+}
+.con-bet-img{
+	padding-left: 25px;
+	
+}
+.content-between a:hover{
+	opacity: 0.6;
+}
+.con-img{
+	border:1px solid white ;
+	border-radius:8px;
+}
+.content-botoom{
+	width:100%;
+	height:1000px;
+	margin-top: 10px;
+	
+}
+.diem-den-yeu-thich{
+	width:100%;
+	height:500px;
+}
+.topic {
+	font-family: myFont;
+	text-align: center;
+	padding: 20px 0px;
+	color: red;
+}
+.love{
+	padding: 15px 22px;
+	float :left;
+	width:360px;
+	height:350px;
+	
+	
+}
+.img-love img{
+	position:absolute ;
+	
+}
+.text-love{
+	position:absolute ;
+	color: red;
+	font-size: 30px;
+	margin-top:30px;
+	margin-left: 50px;
+	
+}
+
+.love a:hover{
+	opacity: 0.6;
+	color: black;
+}
+.tin-tuc{
+	width:100%;
+	height:200px;
+	border-top: 7px solid #017616;
+}
+.tin-tuc-1{
+	width:23%;
+	height:70%;
+	float: left;
+	margin-left:19px;
+}
+.tin-tuc-1 a{
+	text-decoration:none;
+}
+.img-tin-tuc{
+	padding:0px 40px;
+	border-radius:50% ;
+	
+}
+.text-tt{
+	font-family: mynewFont;
+	text-align: center;
+	color: black;
+}
+.text-tt-1{
+	font-family: mynewFont;
+	text-align: justify;
+	color: black;
+	line-height: 20px;
+	padding-top: 10px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+    white-space:nowrap;
+	width:100%;
+	
+}
+.tin-tuc-1 h3:hover, a:hover{
+	color: #C15400;
+	opacity: 0.6;
+}
+.dat-va-nguoi-hoi-an{
+	width:100%;
+	height:500px;
+}
+.dat-nguoi{
+	width:100%;
+	height:270px;
+	margin-bottom: 10px;
+	background-color:aliceblue;
+}
+.dat-nguoi a{ 
+text-decoration: none;
+}
+.dat{
+	width:50%;
+	height: 100%;
+	float: left;
+}
+.nguoi{
+	width:50%;
+	height: 100%;
+	float:left;
+}
+.text-tt-2{
+	font-family: mynewFont;
+	text-align: justify;
+	color: black;
+	line-height: 20px;
+	padding: 10px 5px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+    white-space:wrap;
+	width:100%;
+	
+}
+
+.text-tt-p{
+	text-align: justify;
+	font-family: mynewFont;
+	padding: 0px 5px;
+	line-height: 20px;
+}
+.footer{
+	width:100%;
+	height:300px;
+	background-color: black;
+	
+}
+	
