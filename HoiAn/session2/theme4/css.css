@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+}
+.tweest{
+	width:25%;
+	height:650px;
+	background-color:#00A2B0;
+	float: left;
+}
+.replies{
+	width:25%;
+	height:650px;
+	background-color:#EFAA00;
+	float: left;
+}
+.search{
+	width:25%;
+	height:650px;
+	background-color:#B2B2B2;
+	float: left;
+}
+.messages{
+	width:25%;
+	height:650px;
+	background-color:#0064FF;
+	float: left;
+
+}
+.p{
+	margin:10px auto;
+	text-align: center;
+	color: aliceblue;
+}
