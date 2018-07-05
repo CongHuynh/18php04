@@ -102,7 +102,7 @@
 }
 .content{
 	width: 90%;
-	height:2090px;
+	height:2000px;
 	margin:10px auto;
 }
 .content-top{
@@ -154,7 +154,7 @@
 }
 .content-botoom{
 	width:100%;
-	height:1000px;
+	height:860px;
 	margin-top: 10px;
 	
 }
@@ -182,20 +182,20 @@
 }
 .text-love{
 	position:absolute ;
-	color: red;
-	font-size: 30px;
-	margin-top:30px;
-	margin-left: 50px;
+	margin:300px 10px;
+	font-family: mynewFont;
+	color:white;
+	text-align: center;
+	
 	
 }
 
 .love a:hover{
 	opacity: 0.6;
-	color: black;
 }
 .tin-tuc{
 	width:100%;
-	height:200px;
+	height:50px;
 	border-top: 7px solid #017616;
 }
 .tin-tuc-1{
@@ -278,7 +278,34 @@ text-decoration: none;
 .footer{
 	width:100%;
 	height:300px;
-	background-color: black;
+	background-image:url(image/footer.jpg);
+	border-top:4px solid #017616;
 	
 }
+.footer-t{
+	width:60%;
+	height: 250px;
+	margin:30px 270px;
+	float:left;
+
+}
+.footer-img{
+	width: 200px;
+	height: 200px;
+	margin:5px 10px;
+	float: left;
+}	
+.footer-text{
+	width: 580px;
+	height: 200px;
 	
+	float: left;
+	margin-top: 25px;
+	font-family: mynewFont;
+	color: black;
+	
+}
+.f-text{
+	margin-top: 10px;
+	word-spacing: 5px;
+}
