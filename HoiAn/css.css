@@ -38,8 +38,20 @@
 	float: right;
 	
 }
-.img-phone{
-	padding:16px 0px 0px 60px;
+.r-header li{
+	list-style-type: none;
+	display: inline-table;
+	padding: 15px 150PX;
+	
+}
+.r-header a{
+	text-decoration: none;
+	color: white;
+	font-family: mynewFont;
+}
+.r-header a:hover{
+	
+	color: yellow;
 }
 .tx-phone{
 	font-family: myFont;
@@ -53,26 +65,52 @@
 	height:50px;
 	background-color: #000000;
 }
-.menu li{
+.menu  li{
 	list-style-type: none;
 	display: inline-table;
 	padding: 5px 10px;
+	position: relative;
 }
 .menu a{
 	text-decoration: none;
 	color:white;
 	font-family: myFont;
 }
+
 .menu ul{
 	text-align: center;
 }
+.menu .sub-menu{
+        width:150px;
+        position: absolute;
+	background-color: black;
+	padding: 10px 0px;
+	display: none;
+	
+        
+    }
+.menu li:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu li {
+	float: none;
+	width: 100%;
+}
+.sub-menu a{
+	display: block;
+	line-height: 30px;
+	text-indent: 5px;
+	border-bottom: 1px solid #FFDD00;
+	width: 90%;
+}
 .menu ul li:hover{
-	background: #fff;
+	
 	transform: 1.2s;
 }
 .menu ul li a:hover{
-	color:#666;
-	font-size: 20px;
+	color:yellow;
+	
 }
 .banner{
 	width:100%;
@@ -308,4 +346,80 @@ text-decoration: none;
 .f-text{
 	margin-top: 10px;
 	word-spacing: 5px;
+}
+@media screen and (max-width: 768px) {
+	.wrapper{
+	width:768px;
+	height:3630px;
+	}
+	.banner{
+		width:100%;
+	}
+	.content{
+		width:100%;
+		height: 2700px;
+	}
+	.content-top-l{
+		width:90%;
+		padding: 0px 40px;
+	}
+	.content-top-r{
+		display: none;
+	}
+	.content-between{
+		width:80%;
+		height:400px;
+		padding: 0px 180px;
+	}
+	.content-botoom{
+		width:100%;
+		height:1880px;
+	}
+	.diem-den-yeu-thich{
+		width:100%;
+		height:900px;
+		
+	}
+	.love{
+		padding: 10px 200px;
+	}
+	.diem-den-yeu-thich h2{
+		text-align: center;
+	}
+	.tin-tuc{
+		width:100%;
+		height:700px;
+		margin-top: 290px;
+	}
+	
+	
+	.tin-tuc-1{
+		width:40%; 
+		height:150px;
+		padding: 60px 25px;
+		float: left;
+	}
+.dat-va-nguoi-hoi-an{
+	display: none;
+}
+.footer{
+	width:100%;
+	height:300px;
+}
+	.footer-t{
+		width:90%;
+		height:100%;
+		margin: 25px 100px;
+	}
+	.footer-img{
+		width: 40%;
+		height: 200px;
+		float: left;
+		padding: 20px ;
+	}
+	.footer-text{
+		width:40%;
+		height: 200px;
+		float: left;
+	}
 }

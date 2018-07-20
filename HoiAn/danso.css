@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+	
+}
+body{
+	background-color: black;
+}
+@font-face{
+	
+	font-family: mynewFont;
+	src:url('Font/AndesRoundedLight.otf');
+}
+.wrapper{
+	width:1000px;
+	height: 800px;
+	background-image: url(image/Best-Website-Background-Images3.jpg);
+	margin: auto;
+}
+.logo{
+	width:100%;
+	height: 150px;
+	border-bottom: 5px solid #017616;
+	background-color: white;
+	
+}
+.logo-img img{
+	float: left;
+	padding:10px 30px 0px 230px;
+	width: 150px;
+	height:130px;
+}
+.title{
+	float: left;
+	color: #017616;
+	padding:50px 0px;
+	font-family: mynewFont;
+}
+.content{
+	widht:100%;
+	height:75%;
+	margin: auto;
+	font-family: mynewFont;
+}
+.content h2{
+	margin-top: 50px;
+	color: black;
+	text-align: center;
+}
+.content h3{
+	margin: 30px;
+	color: black;
+	
+}
+.content p{
+	margin: 50px 30px; 
+	line-height: 20px;
+	color:currentColor;
+}
+table {
+    border-collapse: collapse;
+	width: 90%;
+	margin: 60px 50px;
+	height:200px;
+}
+
+table, td, th, tr{
+    border: 1px solid black;
+	height: 50px;
+	
+}
+table, th{
+	text-align: center;
+	
+}
+th{
+	 background-color: #4CAF50;
+    color: white;
+}
+td:hover {
+	background-color:#f5f5f5;
+}
+table tr td:nth-child(1s){
+	font-weight: bold;
+}
+tbody tr:nth-child(even){
+	background-color: #D9D7D7;
+}
+
