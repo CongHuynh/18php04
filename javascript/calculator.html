@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculator</title>
+<link href="css.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div class="calculator">
+	
+	<table>
+	<tr>
+		<td colspan="7"><input id="result" type="text"></td>
+	</tr>
+		<tr>
+			<td><input type="button" id="btn" value="Rad"></td>
+			<td><input type="button" id="btn" value="Deg"></td>
+			<td><input type="button" id="btn" value="X!"></td>
+			<td><input type="button" id="btn" value="(" onClick="result.value+=this.value"></td>
+			<td><input type="button" id="btn" value=")" onClick="result.value+=this.value"></td>
+			<td><input type="button" id="btn" value="%" onClick="result.value+=this.value"></td>
+			<td><input type="button" id="btn" value="AC" onClick="result.value=''"></td>
+		</tr>
+		<tr>
+			<td><input type="button" id="btn" value="inv"></td>
+			<td><input type="button" id="btn" value="sin"></td>
+			<td><input type="button" id="btn" value="iN"></td>
+			<td><input class="number" type="button" id="btn" value="7" onClick="result.value+=this.value"></td>
+			<td><input class="number" type="button" id="btn" value="8" onClick="result.value+=this.value"></td>
+			<td><input class="number" type="button" id="btn" value="9" onClick="result.value+=this.value"></td>
+			<td><input type="button" id="btn" value="/" onClick="result.value+=this.value"></td>
+		</tr>
+		<tr>
+			<td><input type="button" id="btn" value="&pi;"></td>
+			<td><input type="button" id="btn" value="cos"></td>
+			<td><input type="button" id="btn" value="log"></td>
+			<td><input class="number" type="button" id="btn" value="4" onClick="result.value+=this.value"></td>
+			<td><input class="number" type="button" id="btn" value="5" onClick="result.value+=this.value"></td>
+			<td><input class="number" type="button" id="btn" value="6" onClick="result.value+=this.value"></td>
+			<td><input type="button" id="btn" value="*" onClick="result.value+=this.value"></td>
+		</tr>
+		<tr>
+			<td><input type="button" id="btn" value="e"></td>
+			<td><input type="button" id="btn" value="tan"></td>
+			<td><input type="button" id="btn" value="sqrt()"></td>
+			<td><input class="number" type="button" id="btn" value="1" onClick="result.value+=this.value"></td>
+			<td><input class="number" type="button" id="btn" value="2" onClick="result.value+=this.value"></td>
+			<td><input class="number" type="button" id="btn" value="3" onClick="result.value+=this.value"></td>
+			<td><input type="button" id="btn" value="-"></td>
+		</tr>
+		<tr>
+			<td><input type="button" id="btn" value="Ans"></td>
+			<td><input type="button" id="btn" value="EXP"></td>
+			<td><input type="button" id="btn" value="X&sup2;"></td>
+			<td><input class="number" type="button" id="btn" value="0" onClick="result.value+=this.value"></td>
+			<td><input type="button" id="btn" value="." onClick="result.value+=this.value"></td>
+			<td><input class="es" type="button" id="btn" value="=" onClick="result.value = eval(result.value)"></td>
+			<td><input type="button" id="btn" value="+" onClick="result.value+=this.value"></td>
+		</tr>
+	</table>
+<script src="common.js" type="text/javascript"></script>
+</div>
+</body>
+</html>
