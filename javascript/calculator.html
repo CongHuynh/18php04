@@ -16,7 +16,7 @@
 		<tr>
 			<td><input type="button" id="btn" value="Rad"></td>
 			<td><input type="button" id="btn" value="Deg"></td>
-			<td><input type="button" id="btn" value="X!"></td>
+			<td><input type="button" id="btn" value="black" onClick="result.value=result.value.substr(0 , result.value.length-1)"></td>
 			<td><input type="button" id="btn" value="(" onClick="result.value+=this.value"></td>
 			<td><input type="button" id="btn" value=")" onClick="result.value+=this.value"></td>
 			<td><input type="button" id="btn" value="%" onClick="result.value+=this.value"></td>
@@ -24,7 +24,7 @@
 		</tr>
 		<tr>
 			<td><input type="button" id="btn" value="inv"></td>
-			<td><input type="button" id="btn" value="sin"></td>
+			<td><input class="cal" type="button" id="btn" value="sin" onClick="cal()"></td>
 			<td><input type="button" id="btn" value="iN"></td>
 			<td><input class="number" type="button" id="btn" value="7" onClick="result.value+=this.value"></td>
 			<td><input class="number" type="button" id="btn" value="8" onClick="result.value+=this.value"></td>
@@ -32,7 +32,7 @@
 			<td><input type="button" id="btn" value="/" onClick="result.value+=this.value"></td>
 		</tr>
 		<tr>
-			<td><input type="button" id="btn" value="&pi;"></td>
+			<td><input type="button" id="btn" value="&pi;" onClick="result.value+=Math.PI"></td>
 			<td><input type="button" id="btn" value="cos"></td>
 			<td><input type="button" id="btn" value="log"></td>
 			<td><input class="number" type="button" id="btn" value="4" onClick="result.value+=this.value"></td>

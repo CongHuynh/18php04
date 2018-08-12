@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example 1 - Session 11</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="register">
+		<h1>Register form</h1>
+		<div id="success">Register success!</div>		
+		<form name="register" action="#" id="registerForm">
+			<p>Name: <input type="text" placeholder="Please input your name" name="name" id="name"></p>
+			<p id="demo"></p>
+			<p>Phone: <input type="text" placeholder="Please input your phone" name="phone" id="phone"></p>
+			<p id="demo1"></p>
+			<p>Email: <input type="text" placeholder="Please input your email" name="email" id="email"></p>
+			<p id="demo2"></p>
+			<p>Gender:
+				<input type="radio" name="gender" id="male"> Male
+				<input type="radio" name="gender" id="female"> Female
+				<input type="radio" name="gender" id="other"> Other
+			</p>
+			<p id="demo3"></p>
+			<p>Description:
+			<textarea rows="10" cols="30"></textarea>
+			</p>
+			<p>Birthday:
+			<input type="date" name="birthday">
+			</p>
+			<p><input type="button" name="register" value="Register" onclick ="validateForm();"></p>
+		</form>
+	</div>
+	<script type="text/javascript" src="common4.js"></script>
+</body>
+</html>
