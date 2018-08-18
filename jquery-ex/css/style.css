@@ -1,5 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
-#no:hover{
-	display: none;
+.troll{
+	width:250px;
+	height:150px;
+	margin: auto;
+	
+}
+#no{
+	background: black;
+	color: white;
+	width:60px;
+	height:20px;
+	
+}
+#yes{
+	background: red;
+	color: white;
+	width:60px;
+	height:20px;
+	
 }
