@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0; padding: 0;}
+
+#menu {
+border: 1px solid #686;
+background: #e4e4e3;
+float: left;
+}
+
+#menu ul {
+float: left;
+list-style: none;
+}
+
+#menu ul li {
+position: relative;
+float: left;
+}
+
+#menu li a {
+display: block;
+color: #232323;
+font-weight: bold;
+text-decoration: none;
+padding: .3em 6px
+}
+
+#menu li a:hover {
+color: white;
+background:  orange;
+}
+
+#menu li ul {
+position: absolute;
+display: none;
+width: 10em;
+}
+
+#menu li:hover ul {
+display: block;
+}
+
+#menu ul li ul li{
+border: 1px solid #686;
+width: 100%;
+}
+

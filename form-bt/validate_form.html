@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validate form HTML</title>
+	<link rel="stylesheet" type="text/css" href="validate_form.css">
+	<link type="text/css" rel="stylesheet" href="bootstrap-theme.min.css">
+</head>
+<body>	
+	<div id = "container">
+		<h1>Register form</h1>
+		<div id="success">Register success!</div>
+		<form name="register" action="#" id="registerForm">
+			<div class="input-group">
+				<div class="label">Email</div>
+				<div class="input">
+					<input type="text" name="email" id="email" placeholder="Please input your email">
+				</div>
+				<span id="error_email"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Password</div>
+				<div class="input">
+					<input type="text" name="password" id="password" placeholder="Please input your password">
+				</div>
+				<span id="error_password"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Enter the password</div>
+				<div class="input">
+					<input type="text" name="epassword" id="epassword" placeholder="Please input your enter the password">
+				</div>
+				<span id="error_epassword"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Gender</div>
+				<div class="input-radio">
+					<input type="radio" name="gender" id="male"> Male
+					<input type="radio" name="gender" id="female"> Female
+					<input type="radio" name="gender" id="other"> Other
+				</div>
+				<span id="error_gender"></span>
+			</div>
+			<div class="input-group">
+				<div class="input-button">
+					<input type="button" name="register" value="Register" onclick="validateRegister();">
+				</div>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="validate_form.js"></script>
+</body>
+</html>
